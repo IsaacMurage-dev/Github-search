@@ -4,9 +4,21 @@
     <input type="text" class="" placeholder="Insert your username" [(ngModel)]="username" name="username"
       (keyup)="findProfile()">
   </div>
-  <button type="submit" class="btn" (click)="findProfile()">find profile</button>
+  <!-- <button type="submit" class="btn" (click)="findProfile()">find profile</button> -->
 </form>
+<br>
+<div class="container">
+  <div class="row">
+        <!-- <img [src]="userDetails?.avatar_url" class="card-img-top" alt="My profile picture"> -->
+        <div class="card-body text-center">
+              <ul class="list-group list-group-">
+                <li class="list-group-item">Name:</li>
+                <li class="list-group-item">Address:</li>
+                <li class="list-group-item">Public repos: <span class="badge rounded-pill bg-warning text-dark"></span></li>
+              </ul>
+            </div>
 <div *ngIf="profile">
+  
     
   <div class="panel panel-default">
     <div class="panel-heading">
