@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import 'rxjs/add/operator/map';
 import { map } from "rxjs/operators";
 import 'rxjs/add/operator/catch';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +11,7 @@ import 'rxjs/add/operator/catch';
 export class ProfileService {
 
   private username:string;
-  private accesstoken = "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";
+  private accesstoken =environment.accesstoken;
 
   constructor(private http:HttpClient) {
     console.log("service is now ready!");
