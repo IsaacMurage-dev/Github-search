@@ -10,11 +10,11 @@ import 'rxjs/add/operator/catch';
 export class ProfileService {
 
   private username:string;
-  private accesstoken = "5a002f76d318002164c44134b67b39f6774a83c5";
+  private accesstoken = "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";
 
   constructor(private http:HttpClient) {
     console.log("service is now ready!");
-    this.username = 'opanga77';
+    this.username = 'IsaacMurage-dev';
 
   }
   getProfileInfo(){
