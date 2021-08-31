@@ -1,9 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 /* @import "~bootstrap/dist/css/bootstrap.css" */
 body{
-    background-image:url("assets/plain4.jpeg");
-	background-color:whitesmoke;
-	background-blend-mode: lighten;
+    /* background-image:url("assets/plain4.jpeg"); */
+	/* background-color:whitesmoke; */
+	/* background-blend-mode: lighten; */
     background-size: cover;
     background-attachment: fixed;
     /* background-color: yellowgreen; */

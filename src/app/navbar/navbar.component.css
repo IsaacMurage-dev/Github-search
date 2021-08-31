@@ -1,0 +1,30 @@
+.navbar-brand{
+    color: #B3B6B7;
+    font-size: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkcyan;
+    width: 100%;
+    
+}
+
+ a{
+    display: inline-block;
+	justify-content: space-between;
+	color: #B3B6B7;
+    font-size: 30px;
+	text-decoration: none;
+}
+
+ a:hover{
+    color: #ebe7ee;
+    transition: 0.5s ease-in;
+}
+
+/* .navbar-nav {
+    /* padding-left: 65%; */
+/* } */
