@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SearchComponent } from './search/search.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
